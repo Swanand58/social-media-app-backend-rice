@@ -1,0 +1,45 @@
+{
+  "name": "hw6-backend-swanand58",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/l5y0LJwG)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiceWebDevCourse/hw6-backend-Swanand58.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiceWebDevCourse/hw6-backend-Swanand58/issues"
+  },
+  "homepage": "https://github.com/RiceWebDevCourse/hw6-backend-Swanand58#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.41.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "es6-promise": "^4.2.8",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.3",
+    "isomorphic-fetch": "^3.0.0",
+    "jasmine-node": "^3.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
