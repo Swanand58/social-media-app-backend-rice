@@ -5,9 +5,8 @@ const GoogleStrategy = require("passport-google-oauth").OAuth2Strategy;
 
 const googleAuthStrategy = new GoogleStrategy(
   {
-    clientID:
-      "95974735785-nrr841271fucolu05qbdbq6hef5b4q4i.apps.googleusercontent.com",
-    clientSecret: "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",
+    clientID: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
     callbackURL:
       "https://finalproject-ricebook-server-04f59a3aae80.herokuapp.com/auth/google/callback",
     passReqToCallback: true,
